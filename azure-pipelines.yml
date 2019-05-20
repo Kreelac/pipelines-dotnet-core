@@ -27,5 +27,5 @@ steps:
 - task: AzureRmWebAppDeployment@3
   inputs:
     azureSubscription: 'MyTestServiceConnection1'
-    WebAppName: 'MyApp123'
+    WebAppName: 'MyApp1239'
     Package: $(System.ArtifactsDirectory)/**/*.zip
